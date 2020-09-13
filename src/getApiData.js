@@ -1,7 +1,5 @@
 function getApiData() {
   return {
-    appName: "Wishlist App",
-    userName: "Shivam's Wishlist",
     wishList: [
       {
         id: "1",

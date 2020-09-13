@@ -34,8 +34,8 @@ export default function App() {
   const data = getApiData();
   return (
     <div className="App">
-      <h1>{data.appName}</h1>
-      <h2>{data.userName}</h2>
+      <h1>Wishlist App</h1>
+      <h2>Shivam's Wishlist</h2>
       <WishList wishList={data.wishList} />
     </div>
   );
